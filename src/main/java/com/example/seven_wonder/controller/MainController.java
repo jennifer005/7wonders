@@ -1,4 +1,4 @@
-package com.example.seven_wonder;
+package com.example.seven_wonder.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

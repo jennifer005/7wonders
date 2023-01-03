@@ -4,15 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4ad90af-a5ce-4746-864c-9e571704f1c8" name="Changes" comment="add all files">
+    <list default="true" id="e4ad90af-a5ce-4746-864c-9e571704f1c8" name="Changes" comment="add some models files images">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seven_wonder/Gameboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seven_wonder/models/Cards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seven_wonder/models/ClashCoins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seven_wonder/models/Parts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seven_wonder/models/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seven_wonder/models/ProgressCoins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seven_wonder/models/Wonders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/style/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/seven_wonder/gameboard.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ressources/seven_wonder_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/seven_wonder_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seven_wonder/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seven_wonder/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seven_wonder/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seven_wonder/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/seven_wonder/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/seven_wonder/main-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,12 +60,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="com.example.seven_wonder.MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.seven_wonder.MainApplication" />
       <module name="seven_wonder_architect" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.seven_wonder.*" />
+          <option name="PATTERN" value="com.example.seven_wonder.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672684414813</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="beginning">
+      <created>1672730375367</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672730375369</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +126,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add .gitignore" />
     <MESSAGE value="add all files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add all files" />
+    <MESSAGE value="beginning" />
+    <MESSAGE value="add some models files images" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some models files images" />
   </component>
 </project>

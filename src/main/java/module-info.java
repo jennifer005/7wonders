@@ -13,4 +13,6 @@ module com.example.seven_wonder {
 
     opens com.example.seven_wonder to javafx.fxml;
     exports com.example.seven_wonder;
+    exports com.example.seven_wonder.controller;
+    opens com.example.seven_wonder.controller to javafx.fxml;
 }
