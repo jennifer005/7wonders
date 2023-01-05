@@ -1,4 +1,4 @@
-package com.example.seven_wonder;
+package com.example.seven_wonder.models;
 
 import com.example.seven_wonder.models.Cards;
 import com.example.seven_wonder.models.Player;

@@ -1,2 +1,6 @@
-package com.example.seven_wonder;public class Gameboard {
+package com.example.seven_wonder;
+
+public class Gameboard {
+
+
 }

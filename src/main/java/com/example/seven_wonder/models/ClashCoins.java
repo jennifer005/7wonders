@@ -2,7 +2,7 @@ package com.example.seven_wonder.models;
 
 public class ClashCoins {
     private int id;
-    private boolean clashTurn;
+    private boolean clashTurn; // face caché bataille face neutre paix clashTurn = true == bataille
     private String urlImage;
 
     public ClashCoins(int id, boolean clashTurn, String urlImage) {
