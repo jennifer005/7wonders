@@ -4,22 +4,21 @@ public class Cards {
     private int id;
     private String color;
     private String type;
-    private boolean hasSymbol;
+    private int symbol;
     private int victoryPoint;
     private String typeofSymbol;
     private String product;
     private String urlImage;
     private String effect;
 
-    public Cards(int id, String color, String type, boolean hasSymbol, int victoryPoint, String typeofSymbol, String product,String effect, String urlImage) {
+    public Cards(int id, String color, String type, int symbol, int victoryPoint, String typeofSymbol, String product, String urlImage) {
         this.id = id;
         this.color = color;
         this.type = type;
-        this.hasSymbol = hasSymbol;
+        this.symbol = symbol;
         this.victoryPoint = victoryPoint;
         this.typeofSymbol = typeofSymbol;
         this.product = product;
-        this.effect = effect;
         this.urlImage = urlImage;
     }
 
@@ -47,12 +46,12 @@ public class Cards {
         this.type = type;
     }
 
-    public boolean isHasSymbol() {
-        return hasSymbol;
+    public int getSymbol() {
+        return symbol;
     }
 
-    public void setHasSymbol(boolean hasSymbol) {
-        this.hasSymbol = hasSymbol;
+    public void setSymbol(int symbol) {
+        this.symbol = symbol;
     }
 
     public int getVictoryPoint() {
